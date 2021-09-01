@@ -69,7 +69,7 @@
 		7B917AFDAC46E9BE867BBCEC /* Pods-Swimediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Swimediator_Tests/Pods-Swimediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FC79AC03BD6515990CCE74B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		95367E141AD42B85D8613F26 /* Pods-Swimediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimediator_Example.release.xcconfig"; path = "Target Support Files/Pods-Swimediator_Example/Pods-Swimediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D27CF400E22FC46E5A78A9A /* Swimediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Swimediator.podspec; path = ../Swimediator.podspec; sourceTree = "<group>"; };
+		9D27CF400E22FC46E5A78A9A /* Swimediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Swimediator.podspec; path = ../Swimediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB6E9E231635FE2664E981FB /* Pods_Swimediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swimediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
