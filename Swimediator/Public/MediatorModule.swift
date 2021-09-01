@@ -7,6 +7,9 @@
 
 import UIKit
 
+@objc protocol InternalRouterProtocol{}
+@objc protocol InternalInjectorProtocol{}
+
 public protocol MediatorModule {
     
     func binding(binder: InjectorModuleBinder)
