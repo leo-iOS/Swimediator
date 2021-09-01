@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.default_subspec = "Public"
+#  s.default_subspec = "Public"
   
   s.subspec "Public" do |ss|
     ss.source_files = 'Swimediator/Public/**/*'
