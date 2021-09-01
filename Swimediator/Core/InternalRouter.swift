@@ -18,15 +18,6 @@ class InternalRouter: Router {
     private var routerMap: NSMutableDictionary = NSMutableDictionary()
     private init() {}
     
-//    func map(route: String, handler: @escaping ([String:String]) -> ()) throws {
-//        guard let url = URL(string: route) else {
-//            throw RouterError.invalidURL
-//        }
-//        let entry = RouterEntry(pattern: url, handler: handler)
-//        let pathComponents = self.pathComponents(in: route)
-//        insertRoute(entry: entry, pathComponents: pathComponents, routeMap: self.routerMap)
-//    }
-    
     func map(route: String, handler: @escaping ([String : String]) -> (AnyObject?)) throws {
         guard let url = URL(string: route) else {
             throw RouterError.invalidURL
