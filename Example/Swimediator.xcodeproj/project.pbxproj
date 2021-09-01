@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0D167C6226DF46BC00906E33 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167C6126DF46BC00906E33 /* BaseViewController.swift */; };
+		0D167CF826DF787E00906E33 /* Service3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CEC26DF787E00906E33 /* Service3ViewController.swift */; };
+		0D167CF926DF787E00906E33 /* Service3Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CEE26DF787E00906E33 /* Service3Protocol.swift */; };
+		0D167CFA26DF787E00906E33 /* Service3Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CEF26DF787E00906E33 /* Service3Module.swift */; };
+		0D167CFB26DF787E00906E33 /* Service2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CF026DF787E00906E33 /* Service2Protocol.swift */; };
+		0D167CFC26DF787E00906E33 /* Service1Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CF126DF787E00906E33 /* Service1Protocol.swift */; };
+		0D167CFD26DF787E00906E33 /* Service1Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CF226DF787E00906E33 /* Service1Module.swift */; };
+		0D167CFE26DF787E00906E33 /* Service2Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CF326DF787E00906E33 /* Service2Module.swift */; };
+		0D167CFF26DF787E00906E33 /* Service2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CF526DF787E00906E33 /* Service2ViewController.swift */; };
+		0D167D0026DF787E00906E33 /* Service1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D167CF726DF787E00906E33 /* Service1ViewController.swift */; };
 		3E98A353FA99062AEB0F3E73 /* Pods_Swimediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D564254CD4D85ACECFCE2 /* Pods_Swimediator_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -32,6 +41,15 @@
 		09D7DEE91704D207D8EE5B53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0C97D8A338ED8F68CE825DE1 /* Pods-Swimediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-Swimediator_Tests/Pods-Swimediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0D167C6126DF46BC00906E33 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0D167CEC26DF787E00906E33 /* Service3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service3ViewController.swift; sourceTree = "<group>"; };
+		0D167CEE26DF787E00906E33 /* Service3Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service3Protocol.swift; sourceTree = "<group>"; };
+		0D167CEF26DF787E00906E33 /* Service3Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service3Module.swift; sourceTree = "<group>"; };
+		0D167CF026DF787E00906E33 /* Service2Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service2Protocol.swift; sourceTree = "<group>"; };
+		0D167CF126DF787E00906E33 /* Service1Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service1Protocol.swift; sourceTree = "<group>"; };
+		0D167CF226DF787E00906E33 /* Service1Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service1Module.swift; sourceTree = "<group>"; };
+		0D167CF326DF787E00906E33 /* Service2Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service2Module.swift; sourceTree = "<group>"; };
+		0D167CF526DF787E00906E33 /* Service2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service2ViewController.swift; sourceTree = "<group>"; };
+		0D167CF726DF787E00906E33 /* Service1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service1ViewController.swift; sourceTree = "<group>"; };
 		3BC4F5842A3A3B5B44E559B4 /* Pods-Swimediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-Swimediator_Example/Pods-Swimediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		454D564254CD4D85ACECFCE2 /* Pods_Swimediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swimediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Swimediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swimediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +97,43 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		0D167CEB26DF787E00906E33 /* Service3 */ = {
+			isa = PBXGroup;
+			children = (
+				0D167CEC26DF787E00906E33 /* Service3ViewController.swift */,
+			);
+			path = Service3;
+			sourceTree = "<group>";
+		};
+		0D167CED26DF787E00906E33 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0D167CF226DF787E00906E33 /* Service1Module.swift */,
+				0D167CF126DF787E00906E33 /* Service1Protocol.swift */,
+				0D167CF326DF787E00906E33 /* Service2Module.swift */,
+				0D167CF026DF787E00906E33 /* Service2Protocol.swift */,
+				0D167CEF26DF787E00906E33 /* Service3Module.swift */,
+				0D167CEE26DF787E00906E33 /* Service3Protocol.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0D167CF426DF787E00906E33 /* Service2 */ = {
+			isa = PBXGroup;
+			children = (
+				0D167CF526DF787E00906E33 /* Service2ViewController.swift */,
+			);
+			path = Service2;
+			sourceTree = "<group>";
+		};
+		0D167CF626DF787E00906E33 /* Service1 */ = {
+			isa = PBXGroup;
+			children = (
+				0D167CF726DF787E00906E33 /* Service1ViewController.swift */,
+			);
+			path = Service1;
+			sourceTree = "<group>";
+		};
 		360CF118F87BAFCD7F0240CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +174,10 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				0D167CED26DF787E00906E33 /* Modules */,
+				0D167CF626DF787E00906E33 /* Service1 */,
+				0D167CF426DF787E00906E33 /* Service2 */,
+				0D167CEB26DF787E00906E33 /* Service3 */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 			);
@@ -344,9 +403,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D167CFB26DF787E00906E33 /* Service2Protocol.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0D167CFA26DF787E00906E33 /* Service3Module.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0D167D0026DF787E00906E33 /* Service1ViewController.swift in Sources */,
+				0D167CFF26DF787E00906E33 /* Service2ViewController.swift in Sources */,
+				0D167CFE26DF787E00906E33 /* Service2Module.swift in Sources */,
+				0D167CF826DF787E00906E33 /* Service3ViewController.swift in Sources */,
+				0D167CFD26DF787E00906E33 /* Service1Module.swift in Sources */,
+				0D167CFC26DF787E00906E33 /* Service1Protocol.swift in Sources */,
 				0D167C6226DF46BC00906E33 /* BaseViewController.swift in Sources */,
+				0D167CF926DF787E00906E33 /* Service3Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
