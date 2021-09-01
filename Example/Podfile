@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Swimediator_Example' do
+  pod 'Swimediator', :path => '../'
+  pod 'SnapKit'
+  target 'Swimediator_Tests' do
+    inherit! :search_paths
+  end
+end
