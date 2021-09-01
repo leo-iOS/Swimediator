@@ -22,7 +22,7 @@ pod 'Swimediator'
 
 ## Author
 
-199320701@qq.com, liao@qiyuhz.com
+leo, 199320701@qq.com
 
 ## License
 
