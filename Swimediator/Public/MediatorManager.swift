@@ -6,11 +6,7 @@
 //
 
 import UIKit
-public enum InjectorScope {
-    case unknown
-    case prototype
-    case singleton
-}
+
 
 public final class MediatorManager {
     

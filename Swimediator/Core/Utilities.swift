@@ -6,6 +6,11 @@
 //
 
 import UIKit
+public enum InjectorScope {
+    case unknown
+    case prototype
+    case singleton
+}
 
 class Utilities: NSObject {
     public static func protocolKey(aProtocol: Protocol, hasArg1: Bool = false, hasArg2: Bool = false, hasArg3: Bool = false) -> String {
