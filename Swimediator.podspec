@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   
   s.subspec "Core" do |ss|
      ss.source_files = 'Swimediator/Core/**/*'
+     ss.dependency = 'Swimediator/Core'
   end
   
 
