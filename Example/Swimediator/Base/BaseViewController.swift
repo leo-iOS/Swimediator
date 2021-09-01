@@ -4,6 +4,7 @@
 
 import UIKit
 import SnapKit
+import Swimediator
 
 let buttonWidth: CGFloat = 120
 let buttonHeight: CGFloat = 45
@@ -62,6 +63,13 @@ class BaseViewController: UIViewController {
         return button
     }()
     
+    
+    lazy var singletonButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.addTarget(self, action: #selector(singleAction), for: .touchUpInside)
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
@@ -83,6 +91,13 @@ class BaseViewController: UIViewController {
         
         addInjectorViews()
         addRouterViews()
+        
+        singletonButton.setTitle("to singleton", for: UIControlState.normal)
+        view.addSubview(singletonButton)
+        singletonButton.snp.makeConstraints { (maker) in
+            maker.centerX.equalToSuperview()
+            maker.bottom.equalToSuperview().offset(-80)
+        }
     }
     
     func addInjectorViews() {
@@ -155,4 +170,18 @@ class BaseViewController: UIViewController {
     @objc func router2Action() {}
     
     @objc func router3Action() {}
+    
+    @objc func singleAction() {
+        // injector
+//        guard let vc = MediatorManager.getObject(aProtocol: SingletonProtocol.self) as? UIViewController else {
+//            return
+//        }
+        // router
+        let obj = try? MediatorManager.routerURL(route: "swi://singleton")
+        guard let vc = obj as? UIViewController else {
+            return
+        }
+        
+        self.present(vc, animated: true, completion: nil)
+    }
 }
